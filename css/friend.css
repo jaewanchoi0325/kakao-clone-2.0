@@ -13,3 +13,64 @@
    width:70px;
    
 }*/
+.friend__avatar.g-avatar {
+  width: 45px;
+}
+
+.friend__avatar.m-avatar {
+  width: 40px;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend .friend__avatar {
+  margin-right: 15px;
+}
+
+.friend__content .friend__name {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.friend__content .friend__bottom-text,
+.friend .chat__timestamp {
+  opacity: 0.6;
+}
+
+.friend__content .friend__bottom-text {
+  font-size: 11px;
+}
+
+.friend__content .friend__status,
+.friend .chat__timestamp {
+  font-size: 11px;
+}
+
+.friend .friend__now-listening {
+  font-size: 12px;
+  font-weight: 600px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #52ce7d;
+}
+
+.friend__now-listening span {
+  opacity: 0.6;
+}
+
+.friend__now-listening i {
+  font-size: 5px;
+}
+
+.friend__add-btn {
+  display: flex;
+  padding: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
